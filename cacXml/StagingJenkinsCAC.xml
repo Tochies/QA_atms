@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SIMROPSuite" parallel="tests" thread-count="10">
+    <parameter name="groupReport" value="/cacReport.html" />
+    <parameter name="toMails" value="soli@seamfix.com" />
+    <parameter name="myBrowser" value="chrome" />
+    <parameter name="environment" value="chrome"/>
+    <parameter name="server" value="remote-jenkins"/>
+    <parameter name="config" value="parallel.conf.json"/>
+    <parameter name="downloadPath" value="/home/seluser/Downloads/"/>
+    <parameter name="testEnv" value="StagingData" />
+	<parameter name="user" value="validLogin" />
+
+	<test name="test1" preserve-order="true">
+		<parameter name="myBrowser" value="chrome" />
+		<classes>
+			<class name="CACTestCases.UserAccountCreation">
+				<methods>
+					<include name="Login"></include>
+					<include name="navigateToUserAccountCreationTest"></include>
+					<include name="assertUserAccountCountTest"></include>
+					<include name="downloadReport"></include>
+					<include name="addNewUserFormValidationTest"></include>
+					<include name="addNewUserTest"></include>
+					<include name="searchNewCreatedUserByPhoneTest"></include>
+				</methods>
+			</class>   
+		</classes>
+	</test>
+	<test name="test12" preserve-order="true">
+		<parameter name="myBrowser" value="chrome" />
+		<classes>
+			<class name="CACTestCases.UserAccountCreation">
+				<methods>
+					<include name="Login"></include>
+					<include name="navigateToUserAccountCreationTest"></include>
+					<include name="searchByRoleTest"></include>
+					<include name="searchByStatusTest"></include>
+					<include name="searchByPhoneTest"></include>
+					<include name="searchByNameTest"></include>
+					<include name="searchByUserEmailPasswordReset"></include>
+					<include name="activateUser"></include>
+					<include name="deactivateUser"></include> 
+				</methods>
+			</class>   
+		</classes>
+	</test>
+	<test name="test13" preserve-order="true">
+		<parameter name="myBrowser" value="chrome" />
+		<classes>
+			<class name="CACTestCases.UserAccountCreation">
+				<methods>
+					<include name="Login"></include>
+					<include name="navigateToUserAccountCreationTest"></include>
+					<include name="viewDetailsUpdateDetailsTest"></include>
+					<include name="viewUserActivationHistory"></include> 
+				</methods>
+			</class>   
+		</classes>
+	</test>
+	 <test name="test2" preserve-order="true">
+		<parameter name="myBrowser" value="chrome" />
+		<classes>
+			 <class name="CACTestCases.VendorAccountCreation">
+				<methods>
+					<include name="Login"></include>
+					<include name="navigateToVendorAccountCreation"></include>
+					<include name="assertVendorAccountCount"></include>
+					<include name="searchByEmailTest"></include>
+					<include name="searchByPhoneTest"></include>
+					<include name="searchByStatusTest"></include>
+					<include name="addNewVendorFormValidationTest"></include>
+					<include name="addNewVendorTest"></include>
+					<include name="searchNewCreatedVendorByPhoneTest"></include>
+				</methods>
+			</class>
+		</classes>
+ 	</test>
+ 	<test name="test11" preserve-order="true">
+		<parameter name="myBrowser" value="chrome" />
+		<classes>
+			 <class name="CACTestCases.VendorAccountCreation">
+				<methods>
+					<include name="Login"></include>
+					<include name="navigateToVendorAccountCreation"></include>
+					<include name="viewDetailsUpdateDetailsTest"></include>
+					<include name="activateVendor"></include>
+					<include name="deactivateVendor"></include>
+					<include name="viewVendorActivationHistory"></include>
+					<include name="activateDeactivateHistory"></include>
+				</methods>
+			</class>
+		</classes>
+ 	</test>
+		<test name="test3" preserve-order="true">
+		<parameter name="myBrowser" value="chrome" />
+		<classes>
+		 	<class name="CACTestCases.ProvisionApp">
+				<methods>
+					<include name="Login"></include>
+					<include name="navigateToVendorPage"></include>
+					<include name="vendorWithoutProvisionedApp"></include>
+				 	<include name="addNewAppFormValidationTest"></include>
+					<include name="addNewAppTest"></include>
+					<include name="editApp"></include>
+					<include name="activateDeactivate"></include>
+					<include name="viewAppActivationHistory"></include>
+				</methods>
+			</class>
+		</classes>
+	</test> 
+	<test name="test4" preserve-order="true">
+		<parameter name="myBrowser" value="chrome" />
+		<classes>
+			<class name="CACTestCases.LicenceManagement">
+				<methods>
+					<include name="Login"></include>
+					<include name="navigateToLicensePage"></include>
+					<include name="topUp"></include>
+					<include name="deduct"></include>
+					<include name="searchByPerformedBy"></include>
+					<include name="actionType"></include>
+					<include name="searchByDateTest"></include>
+				</methods>
+			</class>
+		</classes>
+	</test> 
+	
+	<test name="test5" preserve-order="true">
+	<parameter name="user" value="vendorLogin" />
+		<parameter name="myBrowser" value="chrome" />
+		<classes>
+			<class name="CACTestCases.LicenseApproval">
+				<methods>
+					<include name="Login"></include>
+					<include name="navigateToTaggingRequestDevice"></include>
+					<include name="viewTageHistoryTest"></include>
+					<include name="searchByDeviceIDTest"></include>
+					<include name="searchByDeviceTagTest"></include>
+					<include name="searchByVendorTest"></include>
+					<include name="searchByStatusTest"></include>
+					<include name="searchByDateTest"></include>
+					<include name="approveTag"></include>
+					<include name="rejectTag"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>   
+	<test name="test6" preserve-order="true">
+		<parameter name="myBrowser" value="chrome" />
+		<classes>
+			<class name="CACTestCases.BlacklistDeviceManagement">
+				<methods>
+					<include name="Login"></include>
+					<include name="navigateToBlacklistDeviceManagementTest"></include>
+					<include name="assertKitStatusCount"></include>
+					<include name="searchByDeviceTag"></include>
+					<include name="searchByDeviceID"></include>
+					<include name="searchByAppName"></include>
+					<include name="searchByDeviceStauts"></include>
+					<include name="searchByVendor"></include>
+					<include name="blacklistTest"></include>
+					<include name="whiteklistTest"></include>
+				</methods>
+			</class>
+		</classes>
+	</test> 
+	<test name="test7" preserve-order="true">
+		<parameter name="myBrowser" value="chrome" />
+		<classes>
+			<class name="CACTestCases.DeviceLocator">
+				<methods>
+					<include name="Login"></include>
+					<include name="assertDeviceCountTest"></include>
+					<include name="filterByDate"></include>
+					<include name="searchByDeviceTag"></include>
+					<include name="searchByVendor"></include>
+					<include name="searchByAppName"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>  
+	<test name="test8" preserve-order="true">
+		<parameter name="myBrowser" value="chrome" />
+		<parameter name="user" value="vendorLogin2" />
+		<classes>
+			<class name="CACTestCases.VendorDeviceLocator">
+				<methods>
+					<include name="Login"></include>
+					<include name="assertDeviceCountTest"></include>
+					<include name="filterByDate"></include>
+					<include name="searchByDeviceTag"></include>
+					<include name="searchByAppName"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>  
+	<!-- <test name="test9" preserve-order="true">
+		<parameter name="myBrowser" value="chrome" />
+		<parameter name="user" value="vendorLogin2" />
+		<classes>
+			<class name="CACTestCases.VendorIssueLog">
+				<methods>
+					<include name="Login"></include>
+					<include name="navigateToVendorIssueLog"></include>
+					<include name="showPageSize"></include>
+					<include name="searchByIssueID"></include>
+					<include name="searchByDeviceTag"></include>
+					<include name="searchByDeviceID"></include>
+					<include name="searchByResolutionStatus"></include>
+					<include name="searchByIssueSummary"></include>
+					<include name="logIssueTest"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>   -->
+	<test name="test10" preserve-order="true">
+		<parameter name="myBrowser" value="chrome" />
+		<classes>
+			<class name="util.ForgotPassword">
+				<methods>
+					<include name="forgotPasswordTest"></include>
+				</methods>
+			</class>
+			<class name="CACTestCases.BlacklistDeviceManagement">
+				<methods>
+					<include name="Login"></include>
+					<include name="navigateToBlacklistDeviceManagementTest"></include>
+					<include name="blacklistTest"></include>
+					<include name="whiteklistTest"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>  <!-- Suite  -->

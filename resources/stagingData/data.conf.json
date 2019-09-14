@@ -1,0 +1,101 @@
+{
+	"Forgot_Password": {
+		"email": "oliprosper22@gmail.com"
+	},
+	"validLogin": {
+		"email": "soli@seamfix.com",
+		"pw": "Bankole1!!"
+	},
+	"vendorLogin": {
+		"email": "soli08057562556@seamfix.com",
+		"pw": "Bankole1!!"
+	},
+	"vendorLogin2": {
+		"email": "oliprosper123@gmail.com",
+		"pw": "@Password1"
+	},
+	"Deactivated_User": {
+		"email": "oliprosper@gustr.com",
+		"pw": "bankole1!!"
+	},
+	"Invalid_Email_Password": {
+		"email": "soli2@seamfix.com",
+		"pw": "bankole1!!"
+	},
+	"usermanagement": {
+		"userPhone": "08032791953",
+		"userPhone2": "08024192598",
+		"userEmail": "agentuserx@yopmail.com",
+		"userEmailName": "2016byhisgrace@gmail.com",
+		"editUser": "sfx08057560365@gustr.com",
+		"userFirstName": "Felix",
+		"userLastName": "Ojo",
+		"de_activateUser": "oliprosper@gustr.com",
+		"userHistory": "oliprosper@gustr.com",
+		"performedBy": "soli@seamfix.com"
+	},
+	"dealermanagement": {
+		"dealerName": "Vendor test",
+		"dealerPhone": "08102249201",
+		"dealerPhone2": "08102249201",
+		"dealerEmail": "nnwbhhachukwu@seamfix.com",
+		"de_activateDealer": "nnwbhhachukwu@seamfix.com",
+		"dealerHistory": "nnwachukwuuajja@seamfix.com",
+		"performedBy": "fatube@seamfix.com"
+	},
+	"provisionedApp": {
+		"vendorName": "Vendor test",
+		"dealerPhone": "08102249201",
+		"dealerPhone2": "08102249201",
+		"appID": "app.food.ng",
+		"appKey": "sfxt08057539594",
+		"vendorEmail": "testv@test.com",
+		"vendorEmail2": "soli08057570737@seamfix.com",
+		"de_activateDealer": "nnwbhhachukwu@seamfix.com",
+		"dealerHistory": "nnwachukwuuajja@seamfix.com",
+		"performedBy": "soli@seamfix.com"
+	},
+	"blacklistWhitelist": {
+		"vendorName": "soli",
+		"deviceTag": "DROID-S120-41692724-1559285509430",
+		"appName": "NIBBS",
+		"blacklistDevice": "DROID-S120-41692726-1559285232029",
+		"deviceID": "SAMSUNG-356472091164153"
+	},
+	"taggingRequest": {
+		"deviceID": "SAMSUNG-990005792493695",
+		"tag": "DROID-SFX08057562556-41692727-1559290849538",
+		"vendorName": "Vendor Test08057562556",
+		"approveDevice": "HUAWEI-868912023336842",
+		"startDate": "2019-05-29",
+		"endDate": "2019-05-30"
+	},
+	"adminDashboard": {
+		"vendorName": "Victor",
+		"deviceTag": "DROID-S120-41692730-1559300433100",
+		"appName": "NIBBS",
+		"date": "Last 30 days"
+	},
+	"IssueLog":{
+	"issueID":"ISS-04072019-1562233382702",
+	"deviceID":"BIORUGGED-863424030890071xxxxx",
+	"summaryWhitelist":"Whitelist Device",
+	"summaryBlacklist":"Blacklist Device",
+	"summaryUnableToLogin":"Unable to Login",
+	"summaryFingerprint":"Can't Capture Fingerprint",
+	"summaryPort":"Faulty charging port",
+	"summaryOthers":"Others",
+	"DeviceTag":"DROID-S120-41692720-1559272392775"
+ 	},
+	"roleManager": {
+		"role1": "CAC ADMIN",
+		"role2": "SIMROP DEALER"
+	},
+	"license": {
+		"topupUnit": "5",
+		"startDate": "2019-05-30",
+		"endDate": "2019-05-30",
+		"email": "eedwards@seamfix.com",
+		"performedBy": "fatube@seamfix.com"
+	}
+}

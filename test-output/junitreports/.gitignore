@@ -1,0 +1,11 @@
+/TEST-CACTestCases.UserAccountCreation.xml
+/TEST-CACTestCases.BlacklistDeviceManagement.xml
+/TEST-CACTestCases.DeviceLocator.xml
+/TEST-CACTestCases.LicenceManagement.xml
+/TEST-CACTestCases.LicenseApproval.xml
+/TEST-CACTestCases.ProvisionApp.xml
+/TEST-CACTestCases.TaggingRequest.xml
+/TEST-CACTestCases.VendorAccountCreation.xml
+/TEST-CACTestCases.VendorDeviceLocator.xml
+/TEST-CACTestCases.VendorIssueLog.xml
+/TEST-util.ForgotPassword.xml

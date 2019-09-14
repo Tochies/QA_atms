@@ -1,0 +1,269 @@
+{	
+	"Forgot_Password": {
+    "email": "obilor.paschal@seamfix.com"
+  },
+  
+   "validLogin": {
+    "email": "kasuamah@seamfix.com",
+  	"pw": "bankole1!!"
+  }, 
+  
+  "Deactivated_User": {
+    "email": "bajala@seamfix.com",
+  	"pw": "bankole1!!"
+  },
+  
+  "Invalid_Email_Password": {
+    "email": "soli2@seamfix.com",
+  	"pw": "bankole1!!"
+  },
+  
+  "usermanagement": {
+    "Dealer": "SEAMFIX SUPPORT",
+  	"Zone": "LAGOS 1",
+  	"userPhone": "08130181746",
+  	"userPhone2": "08060660268",
+  	"userEmail": "kasuamah@seamfix.com",
+  	"userFirstName": "SOMTO",
+  	"userLastName": "OLI",
+  	"deletedUser": "bajala@seamfix.com",
+  	"de_activateUser" : "soli@seamfix.com",
+  	"userHistory" : "soli@seamfix.com",
+  	"performedBy" : "oajaja@seamfix.com",
+  	"approvedBy" : "soli@seamfix.com"
+  	
+  	},
+  	
+  	"dealermanagement": {
+    "dealerName": "SEAMFIX SUPPORT",
+  	"Region": "ABA",
+  	"dealerTyper": "SD-SRAA",
+  	"dealerPhone": "08060660268",
+  	"dealerPhone2": "08060660268",
+  	"dealerEmail": "temitoari@mtnnigeria.net",
+  	"deletedDealer": "sarikinglimited@gmail.com",
+  	"de_activateDealer" : "sarikinglimited@gmail.com",
+  	"dealerHistory" : "iiudoh@seamfix.com",
+  	"performedBy" : "fatube@seamfix.com",
+  	"approvedBy" : "kasuamah@seamfix.com"
+  	
+  	},
+  	
+  	"vtuDashboard": {
+    "dealerName": "SEAMFIX SUPPORT",
+  	"startDate": "2017-02-01",
+  	"endDate": "2018-02-31",
+  	"totalAirtime": "2800",
+  	"totalData": "700",
+  	"successfulTrans": "2550",
+  	"failedTrans": "950",
+  	"endDate2": "2018-10-02",
+  	"totalAirtime2": "3250",
+  	"totalData2": "800",
+  	"successfulTrans2": "3100",
+  	"failedTrans2": "950"
+  	
+  	},
+  	
+  	"kitMapping": {
+    "dealerName": "SEAMFIX SUPPORT",
+  	"kitTag": "WIN-SFX-LAG-ETI-2017084",
+  	"mapKitTag": "WIN-SFX-LAG-ETI-0002",
+  	"macAddress": "58-20-B1-7B-7F-95",
+  	"assignedAgent": "seamfix.sanity@mtnagent.com",
+  	"deviceID": "SAMSUNG-359514064476200"
+  	
+  	},
+  	
+  	"blacklistWhitelist": {
+    "dealerName": "SEAMFIX SUPPORT",
+  	"kitTag": "WIN-SFX-LAG-ETI-000006",
+  	"macAddress": "90:67:1C:86:41:5E",
+  	"de_activateDevice" : "HEWLETT-PACKARD-5CD2070FGH",
+  	"userEmail": "fatube@seamfix.com",
+  	"deviceID": "DELLINC.-CMHHYL2"
+  	
+  	},
+  	
+  	"taggingRequest": {
+    "deviceID": "BIORUGGED-863424030912453",
+    "unassignDeviceID": "DELLINC",
+    "reassignDisapprovedDeviceID": "DELLINC.-7DG6J72",
+  	"reassignApprovedDeviceID": "DELLINC.-97W3Q72",
+  	"tag": "WIN-SFX-LAGOS-ETI-22122",
+  	"dealerName": "SEAMFIX SUPPORT",
+  	"dealerState": "LAGOS",
+  	"dealerLga": "Eti Osa",
+  	"serialNumber": "000006",
+  	"deviceType": "WIN",
+  	"dealerCode": "SFX",
+  	"stateCode": "LAG",
+  	"lgaCode": "ETI"
+  	
+  	},
+  	
+  	"taggingApproval": {
+    "deviceID": "BIORUGGED-863424030912453",
+    "unassignDeviceID": "BIORUGGED",
+  	"tag": "DROID-SFX-LAGOS-IKJ-00088",
+  	"reassignDisapprovedDeviceID": "DELLINC.-7DG6J72",
+  	"reassignApprovedDeviceID": "DELLINC.-97W3Q72",   
+  	"dealerName": "SEAMFIX SUPPORT"
+  	
+  	},
+  	
+  	"outlet": {
+    "dealerName": "SEAMFIX SUPPORT",
+  	"outletName": "Test location"
+  	
+  	},
+  	
+  	"vtuOnboarding": {
+    "dealerName": "SEAMFIX SUPPORT",
+  	"agentName": "Kingsley Asuamah",
+  	"agentEmail": "chima@seamfix.com",
+  	"vtuNumber": "08144525418"
+  	
+  	},
+  	
+  	"vtuAirtime": {
+    "dealerName": "SEAMFIX SUPPORT",
+  	"subPhone": "09062058076",
+  	"startDate": "03/01/2018",
+  	"endDate": "03/23/2018",
+  	"vtuNumber": "08144525418"
+  	
+  	},
+  	
+  	"vtuData": {
+    "dealerName": "SEAMFIX SUPPORT",
+  	"subPhone": "09032020434",
+  	"data": "150",
+  	"startDate": "02/02/2018",
+  	"endDate": "02/28/2018",
+  	"vtuNumber": "08144525418"
+  	
+  	},
+  	
+  	"b2b": {
+    "kitTag": "DROIDCOMBO-AG08-LAG-KOS-1099875",
+  	"kitTagSFX": "DROID-SFX-LAG-ETI-112233"
+  	
+  	},
+  	
+  	"kitRetrieval": {
+    "kitTag": "WIN-SFX-LAG-ETI-0002",
+  	"assignedAgent": "pobilor@seamfix.com",
+  	"startDate": "01/21/2019",
+  	"endDate": "02/07/2019",
+  	"reason1": "Others",
+  	"reason2": "Unavailable Agent"
+  	
+  	},
+  	
+  	"notification": {
+    "global": "Global",
+  	"kitTag": "WIN-SFX-LAG-ETI-000006",
+  	"user": "iiudoh@seamfix.com",
+  	"startDate": "01/11/2019",
+  	"endDate": "02/10/2019",
+  	"dealerName": "SEAMFIX SUPPORT",
+  	"sender": "kasuamah@seamfix.com"
+  	
+  	},
+  	
+  	"subscriber": {
+    "uniqueID": "DROIDCOMBO-AG24-ANA-OYI-1114907-1552326665009",
+  	"phoneNumber": "08067253802",
+  	"simSerial": "89234010003643404859",
+  	"surname": "OGUEJIFOR",
+  	"firstName": "Ekwulugo",
+  	"otherName": "Boniface"
+  	
+  	},
+  	
+  	"blacklistName": {
+    "name": "zombie",
+  	"addedBy": "iudoh@seamfix.com",
+  	"startDate": "2018-09-01",
+  	"endDate": "2018-09-01"
+  	
+  	},
+  	
+  	"dashboard": {
+    "dealerName": "SEAMFIX SUPPORT"
+    
+    },
+    
+    "requisition": {
+    "state": "OGUN",
+  	"lga": "Abeokuta South",
+  	"area": "ASERO ESTATE",
+  	"startDate": "2018-08-10",
+  	"endDate": "2018-12-30",
+  	"dealerName": "AWAKE INTERLINK NIG LTD - ABEOKUTA"
+  	
+  	},
+  	
+  	"kitIssueLog":{
+	"issueID":"ISS-14032019-12603",
+	"deviceID":"SAMSUNG-352222081675195",
+	"summaryWhitelist":"Whitelist Kit",
+	"summaryBlacklist":"Blacklist Kit",
+	"summaryUnableToLogin":"Unable to Login",
+	"summaryStolen":"Stolen",
+	"summaryDamaged":"Damaged",
+	"summaryOthers":"Others",
+	"startDate":"01/25/2016",
+	"endDate":"01/25/2018",
+	"kitTag":"WIN-SFX-LAG-ETI-000006"
+ 	},
+ 	
+ 	"userIssueLog":{
+	"issueID":"ISS-12022019-11949",
+	"deviceID":"ALPS-358460050241367",
+	"startDate":"12/10/2017",
+	"endDate":"01/25/2019",
+	"emailResolve":"pobilor@seamfix.com",
+	"email":"edeh.eucharia@mtnagent.com"
+ 	},
+ 	
+ 	"roleManager": {
+    "role1": "CAC ADMIN",
+  	"role2": "DEALER"
+  	
+  	},
+  	
+  	"workflow": {
+    "name": "B2B_REQUEST_APPROVAL",
+  	"activity": "AGENT_ONBOARDING_APPROVAL",
+  	"description": "Approval 1",
+  	"addName": "Approval chain for Device Requisition",
+  	"addRole": "CAC ADMIN"
+  	
+  	},
+  	
+  	"geoTracker": {
+    "dealerName": "SEAMFIX SUPPORT",
+  	"kitTag": "WIN-AG003-LAG-ETI-107353",
+  	"macAddress": "88:83:5D:BF:73:D3",
+  	"devision" : "Enterprise Business Unit",
+  	"region": "LSW",
+  	"state": "LAGOS",
+  	"totalActive0": "Total Active (0 Registration)",
+  	"totalInactiveGeoBio": "Total Inactive (GeoTracker & BioSmart)",
+  	"totalBlacklisted": "Total Blacklisted",
+  	"totalActiveAbove2": "Total Active (2 - 39 Registrations)",
+  	"deviceID": "SAMSUNG-359514064476200"
+  	
+  	},
+  	
+  	"license": {
+    "deviceID": "DELLINC.-2C5CJ5J",
+  	"tag": "WIN-CR1106-OSU-ILS-105734",
+  	"email": "fatube@seamfix.com",
+  	"macAddress": "8C-DC-D4-31-9A-6E"
+  	
+  	}
+  
+}

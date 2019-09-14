@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 5 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-SIMROPSuite">
+              <span class="suite-name border-failed">SIMROPSuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-SIMROPSuite">
+                    <span>C:\Users\soli\git\atms\cacXml\StagingJenkinsCAC.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-SIMROPSuite">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-SIMROPSuite">
+                    <span>1 group</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-SIMROPSuite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-SIMROPSuite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-SIMROPSuite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-SIMROPSuite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">5 methods, 5 failed,   </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-SIMROPSuite" class="hide-methods failed suite-SIMROPSuite"> (hide)</a> <!-- hide-methods failed suite-SIMROPSuite -->
+                      <a href="#" panel-name="suite-SIMROPSuite" class="show-methods failed suite-SIMROPSuite"> (show)</a> <!-- show-methods failed suite-SIMROPSuite -->
+                    </span>
+                    <div class="method-list-content failed suite-SIMROPSuite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SIMROPSuite" title="CACTestCases.UserAccountCreation" hash-for-method="Login(StagingData, validLogin)">Login(StagingData, validLogin)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SIMROPSuite" title="CACTestCases.VendorAccountCreation" hash-for-method="Login(StagingData, validLogin)">Login(StagingData, validLogin)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SIMROPSuite" title="CACTestCases.VendorAccountCreation" hash-for-method="assertVendorAccountCount">assertVendorAccountCount</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SIMROPSuite" title="CACTestCases.UserAccountCreation" hash-for-method="navigateToUserAccountCreationTest">navigateToUserAccountCreationTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SIMROPSuite" title="CACTestCases.VendorAccountCreation" hash-for-method="navigateToVendorAccountCreation">navigateToVendorAccountCreation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-SIMROPSuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-SIMROPSuite" class="panel SIMROPSuite">
+          <div class="suite-SIMROPSuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">CACTestCases.UserAccountCreation</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Login(StagingData, validLogin)">
+                  </a> <!-- Login(StagingData, validLogin) -->
+                  <span class="method-name">Login</span>
+                  <span class="parameters">(StagingData, validLogin)</span>
+                  <div class="stack-trace">java.io.FileNotFoundException: C:\Users\soli\git\atms\data.conf.json (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:138)
+	at java.io.FileReader.&lt;init&gt;(FileReader.java:72)
+	at CACTestCases.SignIn.login(SignIn.java:31)
+	at util.TestBase.Login(TestBase.java:182)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 16 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="navigateToUserAccountCreationTest">
+                  </a> <!-- navigateToUserAccountCreationTest -->
+                  <span class="method-name">navigateToUserAccountCreationTest</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;a[name=&quot;1732139999User Management&quot;] &gt; p&quot;}
+  (Session info: chrome=75.0.3770.100)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;
+System info: host: &apos;seamfix-soli&apos;, ip: &apos;192.168.86.2&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_171&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 75.0.3770.100, chrome: {chromedriverVersion: 75.0.3770.8 (681f24ea911fe7..., userDataDir: /tmp/.com.google.Chrome.gYOrVZ}, goog:chromeOptions: {debuggerAddress: localhost:33371}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: bdd78522beb52abcbea689f3426...}
+Session ID: bdd78522beb52abcbea689f34267310d
+*** Element info: {Using=css selector, value=a[name=&quot;1732139999User Management&quot;] &gt; p}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:413)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)
+	at CACTestCases.UserAccountCreation.navigateToUserAccountCreationTest(UserAccountCreation.java:50)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 20 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SIMROPSuite-class-failed -->
+          <div class="suite-SIMROPSuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">CACTestCases.VendorAccountCreation</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Login(StagingData, validLogin)">
+                  </a> <!-- Login(StagingData, validLogin) -->
+                  <span class="method-name">Login</span>
+                  <span class="parameters">(StagingData, validLogin)</span>
+                  <div class="stack-trace">java.io.FileNotFoundException: C:\Users\soli\git\atms\data.conf.json (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:138)
+	at java.io.FileReader.&lt;init&gt;(FileReader.java:72)
+	at CACTestCases.SignIn.login(SignIn.java:31)
+	at util.TestBase.Login(TestBase.java:182)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 16 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="assertVendorAccountCount">
+                  </a> <!-- assertVendorAccountCount -->
+                  <span class="method-name">assertVendorAccountCount</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.id: total_dealers (tried for 30 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:81)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:271)
+	at CACTestCases.VendorAccountCreation.assertVendorAccountCount(VendorAccountCreation.java:72)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.id: total_dealers
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;
+System info: host: &apos;seamfix-soli&apos;, ip: &apos;192.168.86.2&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_171&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:896)
+	at java.util.Optional.orElseThrow(Optional.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:895)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:248)
+	... 21 more
+... Removed 16 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="navigateToVendorAccountCreation">
+                  </a> <!-- navigateToVendorAccountCreation -->
+                  <span class="method-name">navigateToVendorAccountCreation</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;a[name=&quot;1732139999User Management&quot;] &gt; p&quot;}
+  (Session info: chrome=75.0.3770.100)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;
+System info: host: &apos;seamfix-soli&apos;, ip: &apos;192.168.86.2&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_171&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 75.0.3770.100, chrome: {chromedriverVersion: 75.0.3770.8 (681f24ea911fe7..., userDataDir: /tmp/.com.google.Chrome.SVPsVI}, goog:chromeOptions: {debuggerAddress: localhost:46651}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: a06ddbb562455c418bb7184e0cb...}
+Session ID: a06ddbb562455c418bb7184e0cb072ea
+*** Element info: {Using=css selector, value=a[name=&quot;1732139999User Management&quot;] &gt; p}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:413)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)
+	at CACTestCases.VendorAccountCreation.navigateToVendorAccountCreation(VendorAccountCreation.java:50)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 20 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SIMROPSuite-class-failed -->
+        </div> <!-- panel SIMROPSuite -->
+        <div panel-name="test-xml-SIMROPSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\soli\git\atms\cacXml\StagingJenkinsCAC.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;3&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;SIMROPSuite&quot; parallel=&quot;tests&quot;&gt;
+  &lt;parameter name=&quot;server&quot; value=&quot;remote-jenkins&quot;/&gt;
+  &lt;parameter name=&quot;environment&quot; value=&quot;chrome&quot;/&gt;
+  &lt;parameter name=&quot;downloadPath&quot; value=&quot;/home/seluser/Downloads/&quot;/&gt;
+  &lt;parameter name=&quot;myBrowser&quot; value=&quot;chrome&quot;/&gt;
+  &lt;parameter name=&quot;toMails&quot; value=&quot;soli@seamfix.com&quot;/&gt;
+  &lt;parameter name=&quot;groupReport&quot; value=&quot;/cacReport.html&quot;/&gt;
+  &lt;parameter name=&quot;config&quot; value=&quot;parallel.conf.json&quot;/&gt;
+  &lt;parameter name=&quot;testEnv&quot; value=&quot;StagingData&quot;/&gt;
+  &lt;parameter name=&quot;user&quot; value=&quot;validLogin&quot;/&gt;
+  &lt;test thread-count=&quot;3&quot; verbose=&quot;0&quot; name=&quot;test1&quot; parallel=&quot;tests&quot;&gt;
+    &lt;parameter name=&quot;myBrowser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;CACTestCases.UserAccountCreation&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;Login&quot;/&gt;
+          &lt;include name=&quot;navigateToUserAccountCreationTest&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- CACTestCases.UserAccountCreation --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- test1 --&gt;
+  &lt;test thread-count=&quot;3&quot; verbose=&quot;0&quot; name=&quot;test2&quot; parallel=&quot;tests&quot;&gt;
+    &lt;parameter name=&quot;myBrowser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;CACTestCases.VendorAccountCreation&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;Login&quot;/&gt;
+          &lt;include name=&quot;navigateToVendorAccountCreation&quot;/&gt;
+          &lt;include name=&quot;assertVendorAccountCount&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- CACTestCases.VendorAccountCreation --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- test2 --&gt;
+&lt;/suite&gt; &lt;!-- SIMROPSuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-SIMROPSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for SIMROPSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">test1 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">test2 (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-SIMROPSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for SIMROPSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">Regression</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">assertVendorAccountCount</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">navigateToUserAccountCreationTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">navigateToVendorAccountCreation</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-SIMROPSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for SIMROPSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_SIMROPSuite');
+function tableData_SIMROPSuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(5);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'navigateToVendorAccountCreation')
+data.setCell(0, 2, 'CACTestCases.VendorAccountCreation')
+data.setCell(0, 3, 61153);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'navigateToUserAccountCreationTest')
+data.setCell(1, 2, 'CACTestCases.UserAccountCreation')
+data.setCell(1, 3, 61149);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'assertVendorAccountCount')
+data.setCell(2, 2, 'CACTestCases.VendorAccountCreation')
+data.setCell(2, 3, 30091);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'Login')
+data.setCell(3, 2, 'CACTestCases.VendorAccountCreation')
+data.setCell(3, 3, 8);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'Login')
+data.setCell(4, 2, 'CACTestCases.UserAccountCreation')
+data.setCell(4, 3, 1);
+window.suiteTableData['SIMROPSuite']= { tableData: data, tableDiv: 'times-div-SIMROPSuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-SIMROPSuite">
+              </div> <!-- times-div-SIMROPSuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-SIMROPSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for SIMROPSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-SIMROPSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">29 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">CACTestCases.UserAccountCreation</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">addNewUserFormValidationTest</span>
+                <br/>
+                <span class="ignored-method-name">assertUserAccountCountTest</span>
+                <br/>
+                <span class="ignored-method-name">viewUserActivationHistory</span>
+                <br/>
+                <span class="ignored-method-name">downloadReport</span>
+                <br/>
+                <span class="ignored-method-name">activateHistory</span>
+                <br/>
+                <span class="ignored-method-name">searchByNameTest</span>
+                <br/>
+                <span class="ignored-method-name">addNewUserTest</span>
+                <br/>
+                <span class="ignored-method-name">activateUser</span>
+                <br/>
+                <span class="ignored-method-name">searchByRoleTest</span>
+                <br/>
+                <span class="ignored-method-name">searchNewCreatedUserByPhoneTest</span>
+                <br/>
+                <span class="ignored-method-name">searchByUserEmailPasswordReset</span>
+                <br/>
+                <span class="ignored-method-name">searchByPhoneTest</span>
+                <br/>
+                <span class="ignored-method-name">viewDetailsUpdateDetailsTest</span>
+                <br/>
+                <span class="ignored-method-name">deactivateUser</span>
+                <br/>
+                <span class="ignored-method-name">searchByStatusTest</span>
+                <br/>
+                <span class="ignored-method-name">deactivateHistory</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">CACTestCases.VendorAccountCreation</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">searchByNameResetPassword</span>
+                <br/>
+                <span class="ignored-method-name">deactivateVendor</span>
+                <br/>
+                <span class="ignored-method-name">searchNewCreatedVendorByPhoneTest</span>
+                <br/>
+                <span class="ignored-method-name">searchByStatusTest</span>
+                <br/>
+                <span class="ignored-method-name">searchByPhoneTest</span>
+                <br/>
+                <span class="ignored-method-name">viewDetailsUpdateDetailsTest</span>
+                <br/>
+                <span class="ignored-method-name">addNewVendorTest</span>
+                <br/>
+                <span class="ignored-method-name">addNewVendorFormValidationTest</span>
+                <br/>
+                <span class="ignored-method-name">deactivateHistory</span>
+                <br/>
+                <span class="ignored-method-name">searchByEmailTest</span>
+                <br/>
+                <span class="ignored-method-name">activateHistory</span>
+                <br/>
+                <span class="ignored-method-name">viewVendorActivationHistory</span>
+                <br/>
+                <span class="ignored-method-name">activateVendor</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-SIMROPSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">CACTestCases.VendorAccountCreation</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">setUp(/cacReport.html, StagingData)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">CACTestCases.UserAccountCreation</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass(StagingData, chrome, parallel.conf.json, chrome, remote-jenkins)</span>
+                <span class="method-start">368 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">CACTestCases.VendorAccountCreation</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass(StagingData, chrome, parallel.conf.json, chrome, remote-jenkins)</span>
+                <span class="method-start">368 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">register(public void util.TestBase.Login(java.lang.String,java.lang.String) throws java.lang.Exception)</span>
+                <span class="method-start">9774 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Login(StagingData, validLogin)</span>
+                <span class="method-start">9831 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">captureStatus([TestResult name=Login status=FAILURE method=TestBase.Login(java.lang.String, java.lang.String)[pri:...)</span>
+                <span class="method-start">9848 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">register(public static void CACTestCases.VendorAccountCreation.navigateToVendorAccountCreation() throws java....)</span>
+                <span class="method-start">11905 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">navigateToVendorAccountCreation</span>
+                <span class="method-start">12880 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">CACTestCases.UserAccountCreation</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">register(public void util.TestBase.Login(java.lang.String,java.lang.String) throws java.lang.Exception)</span>
+                <span class="method-start">17904 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Login(StagingData, validLogin)</span>
+                <span class="method-start">17919 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">captureStatus([TestResult name=Login status=FAILURE method=TestBase.Login(java.lang.String, java.lang.String)[pri:...)</span>
+                <span class="method-start">17920 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">register(public void CACTestCases.UserAccountCreation.navigateToUserAccountCreationTest() throws java.lang.In...)</span>
+                <span class="method-start">19597 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">navigateToUserAccountCreationTest</span>
+                <span class="method-start">19873 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">CACTestCases.VendorAccountCreation</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">captureStatus([TestResult name=navigateToVendorAccountCreation status=FAILURE method=VendorAccountCreation.navigat...)</span>
+                <span class="method-start">74036 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">register(public void CACTestCases.VendorAccountCreation.assertVendorAccountCount() throws java.lang.Interrupt...)</span>
+                <span class="method-start">75520 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">assertVendorAccountCount</span>
+                <span class="method-start">77369 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">CACTestCases.UserAccountCreation</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">captureStatus([TestResult name=navigateToUserAccountCreationTest status=FAILURE method=UserAccountCreation.navigat...)</span>
+                <span class="method-start">81023 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">84005 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">CACTestCases.VendorAccountCreation</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">captureStatus([TestResult name=assertVendorAccountCount status=FAILURE method=VendorAccountCreation.assertVendorAc...)</span>
+                <span class="method-start">107461 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">109014 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-suite after">
+                <span class="method-name">cleanup(soli@seamfix.com, /cacReport.html)</span>
+                <span class="method-start">109191 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

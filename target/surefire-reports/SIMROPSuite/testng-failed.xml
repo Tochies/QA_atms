@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [SIMROPSuite]" parallel="tests">
+  <parameter name="server" value="remote-jenkins"/>
+  <parameter name="environment" value="chrome"/>
+  <parameter name="downloadPath" value="/home/seluser/Downloads/"/>
+  <parameter name="myBrowser" value="chrome"/>
+  <parameter name="toMails" value="soli@seamfix.com"/>
+  <parameter name="groupReport" value="/cacReport.html"/>
+  <parameter name="config" value="parallel.conf.json"/>
+  <parameter name="testEnv" value="StagingData"/>
+  <parameter name="user" value="validLogin"/>
+  <test thread-count="3" verbose="0" name="test1(failed)" parallel="tests">
+    <parameter name="myBrowser" value="chrome"/>
+    <classes>
+      <class name="CACTestCases.UserAccountCreation">
+        <methods>
+          <include name="cleanup"/>
+          <include name="captureStatus"/>
+          <include name="beforeClass"/>
+          <include name="navigateToUserAccountCreationTest"/>
+          <include name="Login" invocation-numbers="0"/>
+          <include name="afterClass"/>
+          <include name="setUp"/>
+          <include name="register"/>
+        </methods>
+      </class> <!-- CACTestCases.UserAccountCreation -->
+    </classes>
+  </test> <!-- test1(failed) -->
+  <test thread-count="3" verbose="0" name="test2(failed)" parallel="tests">
+    <parameter name="myBrowser" value="chrome"/>
+    <classes>
+      <class name="CACTestCases.VendorAccountCreation">
+        <methods>
+          <include name="cleanup"/>
+          <include name="captureStatus"/>
+          <include name="navigateToVendorAccountCreation"/>
+          <include name="beforeClass"/>
+          <include name="assertVendorAccountCount"/>
+          <include name="Login" invocation-numbers="0"/>
+          <include name="afterClass"/>
+          <include name="setUp"/>
+          <include name="register"/>
+        </methods>
+      </class> <!-- CACTestCases.VendorAccountCreation -->
+    </classes>
+  </test> <!-- test2(failed) -->
+</suite> <!-- Failed suite [SIMROPSuite] -->
